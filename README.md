@@ -1,10 +1,10 @@
 # ebtl
 
 ## Overview
-**ebtl**, aka _e(xplorer)b(ackground)t(ool)l(oader)_, is a command line utility used to install, register, unregister and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL and to restart the Windows Explorer as needed.
+**ebtl**, aka **e**_(xplorer)_**b**_(ackground)_**t**_(ool)_**l**_(oader)_, is a command line utility used to install, register, unregister and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL and to restart the Windows Explorer as needed.
 
 ## Features
-This utility (also available in binary form in the Installer directory of the ExplorerBgToolRe repository) supports the following command-line syntax:
+This utility (also available in binary form in the **Installer** directory of the **ExplorerBgToolRe** repository) supports the following command-line syntax:
 
 `ebtl [option] [DLL pathname/installation directory]`
 
@@ -13,16 +13,21 @@ If launched with no arguments, the program displays the current registration sta
 Valid options/arguments are:
 
 `-h`  Show this help message.
+
 `-i [directory]`  Install the DLL in the default/specified directory.
+
 `-r <DLL pathname>`  Register the specified DLL.
+
 `-u [DLL pathname]`  Unregister the (specified) DLL.
+
 `-d`  Force the system to reload the DLL.
+
 `-e`  Force the system to restart the Explorer.
 
-_Note: Square brackets [ ] indicate optional parameters, while angle brackets < > indicate mandatory parameters._
+(_note: square brackets [ ] indicate optional parameters, while angle brackets < > indicate mandatory parameters)_
 
 ## Project dependencies
-Source files that are not part of the core **ebtl** project but are used by it as external dependencies can be found in the **Include** and **Library** repositories. The **ExplorerBgToolRe** DLL project is also obviously required bacause the compiled DLL is included into the **ebtl** executable as a resource to be extracted during the installation process:
+Source files that are not part of the core **ebtl** project but are used by it as external dependencies can be found in the **Include** and **Library** repositories. The **ExplorerBgToolRe** DLL project is also obviously required bacause the compiled DLL is included into the **ebtl** executable as a resource, to be extracted during the installation process:
 
 * [ebtl](https://github.com/lpierge/ebtl) — this project
 * [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) — the ExplorerBgToolRe DLL
