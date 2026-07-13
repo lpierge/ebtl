@@ -4,7 +4,7 @@
 **ebtl**, aka **e**_(xplorer)_**b**_(ackground)_**t**_(ool)_**l**_(oader)_, is a command line utility used to install, register, unregister and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL and to restart the Windows Explorer as needed.
 
 ## Features
-This utility (also available in binary form in the **Installer** directory of the **ExplorerBgToolRe** repository) supports the following command-line syntax:
+This utility (also available in binary form in the [Installer](https://github.com/lpierge/ExplorerBgToolRe/tree/main/Installer) directory of the [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) repository) supports the following command-line syntax:
 
 `ebtl [option] [DLL pathname/installation directory]`
 
@@ -53,7 +53,7 @@ Instead of changing the Visual Studio settings in the project file, I recommend 
 
 ## Windows binaries and Installer
 
-The **Installer** directory in the **ExplorerBgToolRe** repository contains the DLL loader (**ebtl.exe**), already compiled for Windows and provided in a zipped archive.
+The [Installer](https://github.com/lpierge/ExplorerBgToolRe/tree/main/Installer) directory in the [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) repository contains the DLL loader (**ebtl.exe**), already compiled for Windows and provided in a zipped archive.
 
 After downloading and unzipping the file, open a Command Prompt (press `Win + R`, type `cmd.exe` and press Enter), navigate to the folder where you extracted the `ebtl.exe` file, close all the running programs and run the following command:
 
