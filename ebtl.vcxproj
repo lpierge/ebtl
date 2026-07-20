@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="..\Library\algorithm.c" />
     <ClCompile Include="..\Library\CExplorerBgToolRe.cpp" />
+    <ClCompile Include="..\Library\CGdiImage.cpp" />
     <ClCompile Include="..\Library\datetime.c" />
     <ClCompile Include="..\Library\fastrand.c" />
     <ClCompile Include="..\Library\strings.c" />
@@ -159,6 +160,7 @@
   <ItemGroup>
     <ClInclude Include="..\Include\algorithm.h" />
     <ClInclude Include="..\Include\CExplorerBgToolRe.h" />
+    <ClInclude Include="..\Include\CGdiImage.h" />
     <ClInclude Include="..\Include\datetime.h" />
     <ClInclude Include="..\Include\env.h" />
     <ClInclude Include="..\Include\fastrand.h" />
@@ -178,9 +180,20 @@
     <ResourceCompile Include="ebtl.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\chibi02.jpg" />
+    <Image Include="res\chibi03.jpg" />
+    <Image Include="res\chibi04.jpg" />
+    <Image Include="res\chibi05.jpg" />
     <Image Include="res\Duffy.ico" />
+    <Image Include="res\image01.jpg" />
+    <Image Include="res\image02.jpg" />
+    <Image Include="res\image03.jpg" />
+    <Image Include="res\image04.jpg" />
+    <Image Include="res\image05.jpg" />
+    <Image Include="res\image06.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="res\config.ini" />
     <None Include="res\ExplorerBgToolRe.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

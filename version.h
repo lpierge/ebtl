@@ -13,7 +13,7 @@
 	versione: <n>.<n>.<n>: <cambio architetturale/disegno/aggiunta funzionalita'>.<ampliazioni/riduzioni,revisioni>.<bugs,patches,etc>:
 */
 #define MAJOR_VERSION	1
-#define MINOR_VERSION	0
+#define MINOR_VERSION	1
 #define PATCH_VERSION	1
 #define RELEASE_VERSION	0
 #define RELEASE_TYPE	"" /*"(beta)"*/
@@ -34,7 +34,8 @@
 
 #define VER_STR_VERSIONINFO   MAJOR_VERSION,MINOR_VERSION,PATCH_VERSION,RELEASE_VERSION
 
-#define VER_STR_PROGRAM_NAME  "ebtl"
+#define VER_STR_PROGRAM_NAME  "ebtl" /* deve essere lo stesso nome usato per l'eseguibile */
+
 #define VER_STR_PRODUCT_NAME  VER_STR_PROGRAM_NAME\
                               "(ebtl)\0"
 #define VER_STR_COPYRIGHT     "Copyright Luca Piergentili (c) 2026\0"

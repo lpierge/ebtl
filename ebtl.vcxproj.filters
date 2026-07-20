@@ -39,6 +39,9 @@
     <ClCompile Include="..\Library\CExplorerBgToolRe.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="..\Library\CGdiImage.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Include\win32api.h">
@@ -89,6 +92,9 @@
     <ClInclude Include="version.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="..\Include\CGdiImage.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ebtl.rc">
@@ -99,10 +105,41 @@
     <Image Include="res\Duffy.ico">
       <Filter>Archivos de recursos</Filter>
     </Image>
+    <Image Include="res\chibi02.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\chibi03.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\chibi04.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\chibi05.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\image01.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\image02.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\image03.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\image04.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\image05.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="res\image06.jpg">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\ExplorerBgToolRe.bin">
       <Filter>Archivos de recursos</Filter>
     </None>
+    <None Include="res\config.ini" />
   </ItemGroup>
 </Project>
