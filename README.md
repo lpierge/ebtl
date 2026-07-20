@@ -1,7 +1,7 @@
 # ebtl
 
 ## Overview
-**ebtl**, aka **e**_(xplorer)_**b**_(ackground)_**t**_(ool)_**l**_(oader)_, is a command line utility used to install, register, unregister and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL and to restart the Windows Explorer as needed.
+**ebtl**, aka **e**_(xplorer)_**b**_(ackground)_**t**_(ool)_**l**_(oader)_, is a command line utility used to install, register, unregister, configure and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL, and to restart the Windows Explorer as needed.
 
 ## Features
 This utility (also available in binary form in the [Installer](https://github.com/lpierge/ExplorerBgToolRe/tree/main/Installer) directory of the [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) repository) supports the following command-line syntax:
@@ -20,11 +20,24 @@ Valid options/arguments are:
 
 `-u [DLL pathname]`  Unregister the (specified) DLL.
 
+`-f [DLL pathname]`  Set the `customfolder` field of the `config.ini` and reload the DLL.
+
+`-z [DLL pathname]`  Resize the images in the specified directory.
+
 `-d`  Force the system to reload the DLL.
 
 `-e`  Force the system to restart the Explorer.
 
-(_note: square brackets [ ] indicate optional parameters, while angle brackets < > indicate mandatory parameters)_
+_note: square brackets [ ] indicate optional parameters, while angle brackets < > indicate mandatory parameters_
+
+## Basic usage
+- Download the  [Installer](https://github.com/lpierge/ExplorerBgToolRe/tree/main/Installer) .zip file, extract the **ebtl.exe** program, open a Command Prompt and run: `ebtl -i`
+- Once the DLL is installed in the default folder (`C:\ExplorerBgToolRe`), go to that folder and open the `config.ini` file. Read all the notes carefully and modify the settings as needed.
+- To uninstall the DLL, open a Command Prompt in the C:\ExplorerBgToolRe folder and run: `ebtl -u`
+- To change the default image folder (`C:\ExplorerBgToolRe\Image`), open a Command Prompt in C:\ExplorerBgToolRe and run: `ebtl -f <full_path_to_new_folder>`
+- If you have images that are too large to be used by the DLL for the Explorer backgound and you want to resize them, open a Command Prompt in C:\ExplorerBgToolRe and run: `ebtl -z <full_path_to_image_folder>#W300` (replace W300 with W + desired width or H + desired height)
+
+_note: remember to leave a space between the option and the argument._
 
 ## Project dependencies
 Source files that are not part of the core **ebtl** project but are used by it as external dependencies can be found in the **Include** and **Library** repositories. The **ExplorerBgToolRe** DLL project is also obviously required bacause the compiled DLL is included into the **ebtl** executable as a resource, to be extracted during the installation process:
