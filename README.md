@@ -6,13 +6,13 @@
 ## Features
 This utility (also available in binary form in the [Installer](https://github.com/lpierge/ExplorerBgToolRe/tree/main/Installer) directory of the [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) repository) supports the following command-line syntax:
 
-`ebtl [option] [DLL pathname/installation directory]`
+`ebtl [option] argument`
 
 If launched with no arguments, the program displays the current registration status of the DLL.
 
 Valid options/arguments are:
 
-`-h`  Show this help message.
+`-h`  Show an help message.
 
 `-i [directory]`  Install the DLL in the default/specified directory.
 
@@ -72,7 +72,7 @@ After downloading and unzipping the file, open a Command Prompt (press `Win + R`
 
 `ebtl -i`
 
-This will install and register the DLL in the default folder `C:\ExplorerBgToolRe`. The installation process will also create two subdirectories (`Image` and `Chibi`), containing sample images, and a `config.ini` configuration file. Make sure to read the comments inside the `config.ini` carefully before modifying it.
+This will install and register the DLL in the default folder `C:\ExplorerBgToolRe`. The installation process will also create two subdirectories (`Image` and `Chibi`), containing sample images, and a `config.ini` configuration file. Make sure to read the comments inside the `config.ini` carefully before modifying it (see the above _Basic usage_ section).
 
 _**P.S. If you are into the manga/anime genre and have run out of sources to download images from, or if you are tired of manually saving them one by one, I also developed a wallpaper manager available [here](https://sourceforge.net/projects/kalimero/), have a look.**_
 
