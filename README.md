@@ -1,7 +1,7 @@
 # ebtl
 
 ## Overview
-**ebtl**, aka **e**_(xplorer)_**b**_(ackground)_**t**_(ool)_**l**_(oader)_, is a command line utility used to install, register, unregister, configure and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL, and to restart the Windows Explorer as needed.
+**ebtl**, aka **e**_(xplorer)_**b**_(ackground)_**t**_(ool)_**l**_(oader)_, is a command line utility used to install, register, unregister, configure and reload the  [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) DLL and to restart the Windows Explorer as needed.
 
 ## Features
 This utility (also available in binary form in the [Installer](https://github.com/lpierge/ExplorerBgToolRe/tree/main/Installer) directory of the [ExplorerBgToolRe](https://github.com/lpierge/ExplorerBgToolRe) repository) supports the following command-line syntax:

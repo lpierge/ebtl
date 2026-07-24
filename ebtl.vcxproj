@@ -180,17 +180,20 @@
     <ResourceCompile Include="ebtl.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\chibi01.png" />
     <Image Include="res\chibi02.jpg" />
     <Image Include="res\chibi03.jpg" />
     <Image Include="res\chibi04.jpg" />
     <Image Include="res\chibi05.jpg" />
     <Image Include="res\Duffy.ico" />
+    <Image Include="res\image.png" />
     <Image Include="res\image01.jpg" />
     <Image Include="res\image02.jpg" />
     <Image Include="res\image03.jpg" />
     <Image Include="res\image04.jpg" />
     <Image Include="res\image05.jpg" />
     <Image Include="res\image06.jpg" />
+    <Image Include="res\notchibi.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\config.ini" />
