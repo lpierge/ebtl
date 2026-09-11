@@ -271,8 +271,6 @@ int wmain(int argc,wchar_t* argv[])
 
 	setlocale(LC_ALL,"");
 
-	//InitConsoleGeometry(1024,10240);
-
 	wprintf(L"%s v%d.%d.%d (%s)\n"\
 			"e(xplorer)b(ackground)t(ool)l(oader).\n"\
 			"A command-line utility to install, register and unregister the ExplorerBgToolRe(dux) DLL.\n"\
